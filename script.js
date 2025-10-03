@@ -2,13 +2,12 @@ function firstChar(text) {
   // your code here
 	let v = text.trim();
 	if(v.length == 0){
-		console.log("");
-		alert("");
+		// console.log("");
+		return "";
 	}
-	else {
-		 console.log(v[0]);
-		alert(v[0]);
-	}
+		 // console.log(v[0]);
+		return v[0];
+	
 }
 
 // Do not change the code below
